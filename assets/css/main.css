@@ -80,6 +80,7 @@ nav {
 }
 nav .container-fluid {
   padding: 0;
+  padding-right: 10px;
 }
 nav .container-fluid .navbar-brand {
   background-color: #f7ad17;
