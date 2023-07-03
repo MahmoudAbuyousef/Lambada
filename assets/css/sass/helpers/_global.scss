@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none;
-  border: none;
 }
 
 body {
-  background-image: url("/assets/images/background.png");
+  background-image: url("/assets/images/background/page_bg_00.jpeg");
+  background-size: cover;
+  height: 100vh;
 }

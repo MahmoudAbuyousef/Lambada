@@ -1,6 +1,18 @@
 @use "../helpers/variables" as *;
 @use "../helpers/global";
-.container {
-  padding: 0;
-  width: 100%;
+@use "../components/inputs";
+@use "../components/header";
+
+@media (min-width: 480px) {
+  .container_page {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container_page {
+    width: 90%;
+    margin: auto;
+  }
 }
