@@ -204,4 +204,10 @@ button {
     width: 90%;
     margin: auto;
   }
+}
+.carousel .carousel-control-prev {
+  justify-content: flex-start;
+}
+.carousel .carousel-control-next {
+  justify-content: flex-end;
 }/*# sourceMappingURL=main.css.map */
