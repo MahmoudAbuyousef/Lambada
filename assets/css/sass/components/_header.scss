@@ -1,0 +1,47 @@
+@use '../helpers/variables' as *;
+@use "../helpers/global";
+header {
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-top: 5px solid orange;
+  .logo {
+    img{
+      width: 150px;  
+    }
+  }
+  form {
+    .input {
+      width: 90%;
+      margin:5px auto;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border: 1px solid #ddd;
+      button {
+        margin-left: 5px;
+        background-color: green;
+        color: #fff;
+        padding: 10px;
+      }
+    }
+    .login-help {
+      text-align: center;
+      a {
+        color: orange;
+      }
+    }
+  }
+}
+nav {
+  padding: 0;
+  background-color: #333;
+  .container-fluid {
+    a {
+      color: #fff;
+    }
+    .navbar-brand {
+      background-color: orange;
+    }
+  }
+}
