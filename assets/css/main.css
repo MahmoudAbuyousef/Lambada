@@ -8,7 +8,7 @@ body {
   background-image: url("/assets/images/background/page_bg_00.jpeg");
   background-size: cover;
   height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -203,6 +203,11 @@ button {
   outline: none;
 }
 
+footer {
+  background-color: #3a454b;
+  padding: 100px;
+}
+
 @media (min-width: 480px) {
   .container_page {
     width: 95%;
@@ -283,7 +288,7 @@ main .services .serv:hover .serv__icon {
 main .services .serv:hover .serv__icon i {
   color: #fff;
 }
-main .services .serv h3 {
+main .services .serv h2 {
   font-size: 1.4rem;
   margin: 10px 0;
 }
@@ -308,7 +313,7 @@ main .features {
   margin-top: 50px;
   padding: 20px;
 }
-main .features .features__include h3 {
+main .features .features__include h2 {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 500;
@@ -345,6 +350,55 @@ main .features .features__include .feat .feat__content p {
 main .features .features__include .feat .feat__content p .read-more {
   color: #f7ad17;
 }
+main .about {
+  margin-top: 30px;
+}
+main .about .about__img {
+  padding: 10px;
+}
+main .about .about__img img {
+  width: 100%;
+}
+main .about .about__content {
+  padding: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+main .about .about__content h2 {
+  margin-bottom: 20px;
+}
+main .about .buy-template {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #f4f4f4;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 500;
+}
+main .about .buy-template p {
+  line-height: 1.6;
+}
+main .about .buy-template p .feel {
+  font-weight: bold;
+}
+main .about .buy-template .buy__link {
+  display: block;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #f7ad17;
+  color: #fff;
+  width: 200px;
+  margin: 30px auto;
+}
+main .courses {
+  padding: 10px;
+}
+main .courses .courses__img {
+  width: 100%;
+}
+main .courses .courses__img img {
+  width: 100%;
+}
 
 @media (min-width: 767px) {
   main .features .features__include .feat__container {
@@ -353,6 +407,38 @@ main .features .features__include .feat .feat__content p .read-more {
   }
   main .features .features__include .feat__container .feat {
     width: 50%;
+  }
+  main .about .about__container {
+    display: flex;
+  }
+  main .about .about__img {
+    width: 50%;
+  }
+  main .about .about__content {
+    width: 50%;
+  }
+  main .about .buy-template {
+    font-size: 1rem;
+    padding: 20px;
+  }
+  main .about .buy-template .buy__link {
+    margin: 0;
+    display: inline-block;
+  }
+  main .courses {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .courses .courses__section {
+    width: 50%;
+  }
+  main .courses .courses__img {
+    width: 40%;
+  }
+  main .courses .courses__img img {
+    width: 100%;
   }
 }
 @media (min-width: 991px) {
@@ -363,7 +449,7 @@ main .features .features__include .feat .feat__content p .read-more {
     display: flex;
     flex-direction: row;
   }
-  main .services h3 {
+  main .services h2 {
     font-size: 1rem;
   }
   main .services .serv {

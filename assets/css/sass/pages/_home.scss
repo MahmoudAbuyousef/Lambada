@@ -82,7 +82,7 @@ main {
           }
         }
       }
-      h3 {
+      h2 {
         font-size: 1.4rem;
         margin: 10px 0;
       }
@@ -109,7 +109,7 @@ main {
     margin-top: 50px;
     padding: 20px;
     .features__include {
-      h3 {
+      h2 {
         color: #fff;
         font-size: 1.6rem;
         font-weight: 500;
@@ -150,7 +150,57 @@ main {
       }
     }
   }
+  .about {
+    margin-top: 30px;
+    .about__img {
+      padding: 10px;
+      img {
+        width: 100%;
+      }
+    }
+    .about__content {
+      h2 {
+        margin-bottom: 20px;
+      }
+      padding: 20px;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+    .buy-template {
+      margin-top: 40px;
+      padding: 40px;
+      background-color: #f4f4f4;
+      text-align: center;
+      line-height: 1.6;
+      font-weight: 500;
+      p {
+        line-height: 1.6;
+        .feel {
+          font-weight: bold;
+        }
+      }
+      .buy__link {
+        display: block;
+        text-transform: uppercase;
+        padding: 10px;
+        background-color: $main_color;
+        color: #fff;
+        width: 200px;
+        margin: 30px auto;
+      }
+    }
+  }
+  .courses {
+    padding: 10px;
+    .courses__img {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
+
 @media (min-width: 767px) {
   main {
     .features {
@@ -164,6 +214,40 @@ main {
         }
       }
     }
+    .about {
+      .about__container {
+        display: flex;
+      }
+      .about__img {
+        width: 50%;
+      }
+      .about__content {
+        width: 50%;
+      }
+      .buy-template {
+        font-size: 1rem;
+        padding: 20px;
+        .buy__link {
+          margin: 0;
+          display: inline-block;
+        }
+      }
+    }
+    .courses {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .courses__section {
+        width: 50%;
+      }
+      .courses__img {
+        width: 40%;
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
 }
 @media (min-width: 991px) {
@@ -174,7 +258,7 @@ main {
     .services {
       display: flex;
       flex-direction: row;
-      h3 {
+      h2 {
         font-size: 1rem;
       }
       .serv {
