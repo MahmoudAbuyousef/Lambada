@@ -205,9 +205,8 @@ button {
 
 footer {
   background-color: #3a454b;
-  padding: 100px;
+  padding: 20px;
 }
-
 @media (min-width: 480px) {
   .container_page {
     width: 95%;
